@@ -37,11 +37,20 @@
 
 
 
-# pass keyword
- 
-for i in range(5):
-    pass  # it means you want to write some code later on. and still want next block of code to be executed.
-print("This statement is printed after pass.")
+# # pass keyword
+# for i in range(5):
+#     pass  # it means you want to write some code later on. and still want next block of code to be executed.
+# print("This statement is printed after pass.")
 
 
+# colors = ["red","green","blue"]
+# for i in colors:
+#     print(i)
+#     for j in i:
+#         print(j)
 
+
+# range function
+
+for i in range(1,20001):
+    print(i)
