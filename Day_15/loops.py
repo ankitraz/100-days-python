@@ -52,5 +52,5 @@
 
 # range function
 
-for i in range(1,20001):
-    print(i)
+for i in range(5):
+    print("Hello world!")

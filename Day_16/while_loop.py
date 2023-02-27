@@ -7,4 +7,10 @@
 
 # while loop with else!
 
-# emulate do while loop with python!!
+# emulate do while loop with python!! we can do that with the help of break keyword and a infinite while loop
+i = 0
+while True:
+    print(i)
+    i += 1
+    if i == 10:
+        break
