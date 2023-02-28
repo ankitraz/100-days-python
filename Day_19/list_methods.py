@@ -27,6 +27,8 @@ k = l2.copy()
 print(k)
 # Note: to be added, while equating a list to another list, any change made in new list will also reflect in old one. so this is not recommended 
 
+
+
 # insert multiple values in a list
 l3 = [2,3,5,6,78]
 print(l3)
