@@ -60,3 +60,12 @@ def add(*args):   # *args is used to pass variable length arguments meaning we c
 
 
 add(2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
+
+
+# to-do
+# def fun(**args):
+#     #print(type[name])
+#     print(args["roll"])
+
+
+# var = 
