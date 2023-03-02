@@ -1,4 +1,5 @@
 def binarysearch(l, target):
+    '''This is the binary search'''
     start = l[0]
     end =   l[len(l)-1]
 
@@ -20,11 +21,11 @@ def linear_search(l,target):
     for index,i in enumerate(l):
         if i == target:
             return index
-
+        return -1
 
 
 
 ls = [2,4,6,7,8,9]
 ans = binarysearch(ls,7)
-ans2 = linear_search(ls,7)
+ans2 = linear_search(ls,12)
 print (ans2)
