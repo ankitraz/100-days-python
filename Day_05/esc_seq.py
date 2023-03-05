@@ -11,7 +11,9 @@ print("Hello this is 'ankit'")
 
 # you can print multiple value using comma in print function
 print("Hello", "this", "is", "ankit", 9 ,'a', 0.9, sep="*", end = " ") # sep is used to separate the values
-print("ankit") # end is used to end the print function
+print("ankit") 
+
+#Note that the end="" argument in the print statement is used to prevent the print function from automatically adding a newline character
 
 
 
