@@ -1,0 +1,7 @@
+Hello World
+this is a new line
+this is another new line
+hey this is amazing
+Python is a great language
+Learning is fun
+consistency is the key
