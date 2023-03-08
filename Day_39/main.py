@@ -3,8 +3,7 @@ if __name__ == "__main__":
         '''
         it gets the data of employee from user and writes it to file.
         '''
-        with open(
-            "D:\\my_workspace\\100_days_python\\Day_39\\data.txt", "a", encoding="utf-8") as student_data:
+        with open("D:\\my_workspace\\100_days_python\\Day_39\\data.txt", "a", encoding="utf-8") as student_data:
             emp_id = input("Enter a unique id for employee: ")
             emp_design = input("Enter the designation of employee: ")
             emp_name = input("Enter the name of employee: ")
@@ -14,7 +13,6 @@ if __name__ == "__main__":
             # print(emp_details[0])
             # class1 = ["21,a,Ankit, 44444"]
             student_data.writelines(f"{emp_details[0]}\n")
-
 
     def get_emp_with_id():
         """
@@ -40,25 +38,27 @@ if __name__ == "__main__":
             # The for loop completes without finding the employee with the given ID
             print("User not found!")
 
+
     while True:
         print("====================================")
         user_input = int(input('''Enter a choice:
 1. Add an Employee
 2. Show an employee data
 3. Exit
-    '''))
-        print("====================================")
+====================================
+Your Input --> 
+'''))
         match user_input:
             case 1:
                 add_employee()
-                usr_input = input("Do you want to continue? y or n\t")
-                if usr_input == "n":
+                usr_input = input("Do you want to continue? (y or n) --> ")
+                if usr_input.lower == "n":
                     print("Thanks for visiting!")
                     break
             case 2:
                 get_emp_with_id()
-                usr_input = input("Do you want to continue? y or n\t")
-                if usr_input == "n":
+                usr_input = input("Do you want to continue? (y or n) --> ")
+                if usr_input.lower == "n":
                     print("Thanks for visiting!")
                     break
             case _:
