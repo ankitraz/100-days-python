@@ -1,23 +1,14 @@
+# Script to rename folders in a directory
 import os
-
-
 
 l = []
 with open('names.txt', 'r',encoding='utf') as f:
     lines = f.readlines()
     
     for line in lines:
-        l.append(line.strip())
+        l.append(line.strip())  # strip removes the newline character or any other character from the end of the string
 
-print(l)
-
-
-# for index,i in enumerate(l):
-#     os.rename(f"Day_0{index}","Day_0{index}_{i}")
-#     if index > 9:
-#         os.rename(f"Day_{index}","Day_{index}_{i}")
-
-
+# print(l)
 for index, i in enumerate(l):
     if index <= 9:
         old_folder_path = os.path.join("D:\\", "my_workspace", "100_days_python", f"Day_0{index}")
