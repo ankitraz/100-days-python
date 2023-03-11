@@ -17,8 +17,14 @@ print(l)
 #     if index > 9:
 #         os.rename(f"Day_{index}","Day_{index}_{i}")
 
-for i in l:
-    old_folder_path = os.path.join("D:", "my_workspace", "100_days_python", f"Day_0{index}")
-    new_folder_path = os.path.join("D:", "my_workspace", "100_days_python", f"Day_0{index}_{i}")
+
+for index, i in enumerate(l):
+    if index <= 9:
+        old_folder_path = os.path.join("D:\\", "my_workspace", "100_days_python", f"Day_0{index}")
+        new_folder_path = os.path.join("D:\\", "my_workspace", "100_days_python", f"Day_0{index}_{i}")
+    else:
+        old_folder_path = os.path.join("D:\\", "my_workspace", "100_days_python", f"Day_{index}")
+        new_folder_path = os.path.join("D:\\", "my_workspace", "100_days_python", f"Day_{index}_{i}")
+
     if not os.path.exists(new_folder_path):
         os.rename(old_folder_path, new_folder_path)
