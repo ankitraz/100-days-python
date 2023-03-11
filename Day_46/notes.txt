@@ -1,0 +1,34 @@
+Yes, you can use multiple decorators on one function. When using multiple decorators, the order in which they are applied matters. The decorator that is closest to the function definition is applied first, and the one furthest away is applied last.
+
+Here's an example that shows how you can use multiple decorators on one function:
+
+```python
+def bold(func):
+    def wrapper(*args, **kwargs):
+        result = func(*args, **kwargs)
+        return f"<b>{result}</b>"
+    return wrapper
+
+def italic(func):
+    def wrapper(*args, **kwargs):
+        result = func(*args, **kwargs)
+        return f"<i>{result}</i>"
+    return wrapper
+
+@bold
+@italic
+def hello(name):
+    return f"Hello {name}!"
+
+print(hello("John"))
+```
+
+In this example, we define two decorators `bold` and `italic` that take a function `func` as an argument. Each decorator defines a new `wrapper` function that calls `func` with any arguments passed to `wrapper`, then wraps the result in HTML tags to make the text bold or italic.
+
+We then use these decorators to wrap our `hello` function by using the `@bold` and `@italic` syntax above the function definition. This is equivalent to writing `hello = bold(italic(hello))`.
+
+When we call our decorated `hello` function with an argument `"John"`, it executes the code in our innermost decorator's (`italic`) `wrapper` function first. This calls our original `hello` function with the argument `"John"` and wraps the result in `<i>` tags to make it italic. Then it executes the code in our outermost decorator's (`bold`) `wrapper` function next. This takes the result from our innermost decorator's (`italic`) `wrapper` function and wraps it in `<b>` tags to make it bold.
+
+The final result is `<b><i>Hello John!</i></b>`, which would display as bold and italic text if rendered as HTML.
+
+I hope this helps! Do you have any more questions about decorators?
