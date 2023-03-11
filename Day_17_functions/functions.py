@@ -35,7 +35,7 @@ def something():
 
 # function to print the sum of all numbers in a 
 def Sum_all(L):
-    _sum = 0;
+    _sum = 0
     for i in L:
         _sum += i
     print(_sum)
@@ -52,14 +52,14 @@ v1 = [2,5,6,6]
 
 # variable length argument
 
-def add(*args):   # *args is used to pass variable length arguments meaning we can pass any number of arguments
-    _sum = 0
-    for i in args:
-        _sum += i
-    print(_sum)
+# def add(*args):   # *args is used to pass variable length arguments meaning we can pass any number of arguments
+#     _sum = 0
+#     for i in args:
+#         _sum += i
+#     print(_sum)
 
 
-add(2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
+# add(2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
 
 
 # to-do
