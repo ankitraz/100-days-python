@@ -4,7 +4,7 @@
 
 l = [1,3,4]
 
-# print(dir(l))  # it will list all the methods and attribute
+# print(dir(l))  # it will list all the methods and attribute of any module or anything
 
 # we can also get info about a specific methods from that list
 # print(l.__add__)

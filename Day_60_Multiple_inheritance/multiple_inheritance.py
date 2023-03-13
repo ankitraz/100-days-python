@@ -7,10 +7,10 @@ class Swimmer:
         pass
 
 
-class FlyingFish(Flyer,Swimmer):  
+class FlyingFish(Flyer,Swimmer):
     pass
 
 
 
 # there is also an ambiguity that if both flyer class and swimmer class same method then 
-# which method is going to inherited to flying fish class? 
+# which of the method is going to inherited to flying fish class? 
