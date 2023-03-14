@@ -71,7 +71,7 @@ This is a challenge to myself. I will be sharing my progress throughout this jou
 * Day_57_Method_overriding
 * Day_58_operator_overloading
 * Day_59_Multilevel_inheritance
-* [Day_60_Multiple_inheritance](Day_60_Multiple_inheritance\notes.md)
+* [Day_60_Multiple_inheritance](Day_60_Multiple_inheritance/notes.md)
 * [Day_61_python_standard_library]()
 
 
