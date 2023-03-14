@@ -62,15 +62,15 @@ This is a challenge to myself. I will be sharing my progress throughout this jou
 * Day_48_inheritance
 * Day_49_Access_modifiers
 * Day_50_static_methods
-* Day_51_instance_vs_class_variables
-* Day_52_class_methods
-* Day_53_class_methods_as_alternative_constructors
-* Day_54_dir_dict_methods
-* Day_55_super_keyword
-* Day_56_dunder_methods
-* Day_57_Method_overriding
-* Day_58_operator_overloading
-* Day_59_Multilevel_inheritance
+* [Day_51_instance_vs_class_variables](Day_51_instance_vs_class_variables/notes.md)
+* [Day_52_class_methods](Day_52_class_methods/notes.md)
+* [Day_53_class_methods_as_alternative_constructors](Day_53_class_methods_as_alternative_constructors/notes.md)
+* [Day_54_dir_dict_methods](Day_54_dir_dict_methods/notes.md)
+* [Day_55_super_keyword](Day_55_super_keyword/notes.md)
+* [Day_56_dunder_methods](Day_56_dunder_methods/notes.md)
+* [Day_57_Method_overriding](Day_57_Method_overriding/notes.md)
+* [Day_58_operator_overloading](Day_58_operator_overloading/notes.md)
+* [Day_59_Multilevel_inheritance](Day_59_Multilevel_inheritance/notes.md)
 * [Day_60_Multiple_inheritance](Day_60_Multiple_inheritance/notes.md)
 * Day_61_python_standard_library -
     * [working_with_directory](Day_61_python_standard_library/working_with_directory/notes.md)
