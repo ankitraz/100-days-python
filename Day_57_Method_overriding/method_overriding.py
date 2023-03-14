@@ -26,4 +26,3 @@ m.eat()
 
 
 # Method overriding
-# it is the process of redefining the method of parent class in child class

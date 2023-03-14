@@ -1,17 +1,4 @@
-# 100DaysOfCode-Challenge
-This is a challenge to myself. I will be sharing my progress throughout this journey and keep this repository updated with notes.
-## How you can participate?
-1. Follow me on twitter (i'm more active there) and connect with me.
-2. `Code` or `learn` daily for atleast 1 hour and post about it on twitter or linkedin to keep community updated.
-2. Use hastags like `100daysofcode` or something like this on twitter or linkedin with your post.
-3. Enjoy the progress.
-
-## Let's learn together😊
-
-
-
-# Index for all the notes
-* [Day_00_intro_to_python]()
+* Day_00_intro_to_python
 * Day_01_Data_types_&_variables
 * Day_02_Fun_programs
 * Day_03_Modules
@@ -71,7 +58,5 @@ This is a challenge to myself. I will be sharing my progress throughout this jou
 * Day_57_Method_overriding
 * Day_58_operator_overloading
 * Day_59_Multilevel_inheritance
-* [Day_60_Multiple_inheritance](Day_60_Multiple_inheritance\notes.md)
-* [Day_61_python_standard_library]()
-
-
+* Day_60_Multiple_inheritance
+* Day_61_python_standard_library
