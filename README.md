@@ -74,5 +74,5 @@ This is a challenge to myself. I will be sharing my progress throughout this jou
 * [Day_60_Multiple_inheritance](Day_60_Multiple_inheritance/notes.md)
 * Day_61_python_standard_library -
     * [working_with_directory](Day_61_python_standard_library/working_with_directory/notes.md)
-    * [working_with_files](Day_61_python_standard_library/working_with_files/notes.md)
+    * [working_with_files](Day_61_python_standard_library/working_with_path/notes.md)
 
